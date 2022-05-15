@@ -10,6 +10,7 @@ hr{
 :root{
     --primary-color: #fb7185;
     --dark-gray: #64748b;
+    --off-white: #F3F4F6;
 
 }
 /* normal container*/
@@ -88,10 +89,62 @@ hr{
    color:var(--dark-gray);
    padding: 1rem;
 }
-.hero .heading-inverted{
+.hero .hero-heading .heading-inverted{
     color:var(--primary-color)
 
 }
+
+/** sections **/
+.section{
+    padding:2 rem;
+}
+
+.section h1{
+    text-align: center;
+   
+
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+
+/** footers **/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 4rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+/** projects **/
+.showcase-list {
+    padding: 2rem;
+}
+
+/** blogs **/
+.showcase-blog {
+    padding-bottom: 6rem;
+}
+
+
+
 
 
 
